@@ -1,83 +1,89 @@
-GreenWay is an AI-powered web application designed to promote smart and sustainable travel. It provides users with eco-friendly travel itineraries, green recommendations, and real-time sustainability insights.
+Overview
 
-Features
+GreenWay is an AI-powered web application designed to promote eco-friendly travel by offering sustainable itineraries, transportation choices, and real-time environmental insights. The platform integrates multiple APIs to provide users with personalized travel plans while encouraging green choices through a gamified rewards system.
 
-AI Travel Planner: Generates personalized eco-friendly travel plans with Google Maps integration.
+🌍 Key Features
 
-Green Suggestions: Recommends sustainable venues and transport options based on live data.
+1️⃣ AI Travel Planner
 
-Green Score & Rewards: Tracks eco-friendly choices and gamifies sustainability with points and discounts.
+Generates optimized, eco-friendly travel itineraries.
 
-Smart Alerts: Provides real-time eco-tips, pollution updates, and AI-driven challenges.
+Integrates with Google Maps to provide real-time navigation.
 
-My Trips Page: Stores AI-generated travel plans, displaying full journey details with maps.
+Suggests sustainable routes and transportation options.
 
-Technologies Used
+2️⃣ Green Suggestions
 
-Frontend: Vite, React, TypeScript, Tailwind CSS, shadcn-ui
+Recommends eco-conscious hotels, restaurants, and activities.
 
-Backend: (Specify if applicable)
+Uses live data to highlight sustainable travel choices.
 
-APIs: Google Maps, Transport API, Air Quality API
+3️⃣ Green Score & Rewards
 
-State Management: (Specify if Redux, Zustand, etc.)
+Tracks user eco-friendly choices and assigns a Green Score.
 
-Installation & Setup
+Gamifies sustainability with points, badges, and potential discounts.
+
+4️⃣ Smart Alerts & Updates
+
+Provides real-time pollution levels and environmental insights.
+
+AI-powered challenges and eco-tips for travelers.
+
+5️⃣ My Trips Page
+
+Stores AI-generated travel plans for easy access.
+
+Displays full itineraries with time, place, and interactive maps.
+
+🛠️ Technologies Used
+
+Frontend: React.js, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+APIs: OpenStreetMaps, Public Transport API, Air Quality API
+
+Database: Firebase (or other preferred database)
+
+Deployment: Vercel
+
+📌 Installation & Setup
+
+To run GreenWay locally, follow these steps:
 
 Clone the repository:
 
-git clone <YOUR_REPO_URL>
-cd greenway-main
+git clone https://github.com/hemanth2812/greenway.git
+cd greenway
 
 Install dependencies:
 
 npm install
 
+Set up environment variables:
+
+Create a .env file and add API keys for OpenStreetMaps, Transport, and Air Quality APIs.
+
 Start the development server:
 
-npm run dev
+npm start
 
-Open the app in your browser:
+🌱 Contribution Guidelines
 
-http://localhost:5173
+We welcome contributions! To contribute:
 
-Deployment
+Fork the repository.
 
-GreenWay can be deployed using services like Netlify or Vercel:
+Create a feature branch: git checkout -b feature-name
 
-Netlify:
+Commit changes: git commit -m "Add new feature"
 
-Push your project to GitHub
+Push to the branch: git push origin feature-name
 
-Sign in to Netlify
+Open a Pull Request.
 
-Click "New site from Git"
+📜 License
 
-Select your repository and deploy
-
-Vercel:
-
-Sign in to Vercel
-
-Import your GitHub repository
-
-Set the framework as Vite
-
-Deploy
-
-Contributing
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-branch)
-
-Commit your changes (git commit -m 'Added new feature')
-
-Push to the branch (git push origin feature-branch)
-
-Open a Pull Request
-
-License
-
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. See LICENSE for details.
 
