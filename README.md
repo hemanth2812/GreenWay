@@ -6,7 +6,7 @@ GreenWay is an AI-powered web application designed to promote eco-friendly trave
 
 Generates optimized, eco-friendly travel itineraries.
 
-Integrates with Google Maps to provide real-time navigation.
+Integrates with OpenStreetMaps to provide real-time navigation.
 
 Suggests sustainable routes and transportation options.
 
@@ -42,7 +42,7 @@ Backend: Node.js, Express.js
 
 APIs: OpenStreetMaps, Public Transport API, Air Quality API
 
-Database: Firebase (or other preferred database)
+Database: Firebase
 
 Deployment: Vercel
 
