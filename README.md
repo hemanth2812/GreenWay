@@ -1,5 +1,3 @@
-Overview
-
 GreenWay is an AI-powered web application designed to promote eco-friendly travel by offering sustainable itineraries, transportation choices, and real-time environmental insights. The platform integrates multiple APIs to provide users with personalized travel plans while encouraging green choices through a gamified rewards system.
 
 🌍 Key Features
